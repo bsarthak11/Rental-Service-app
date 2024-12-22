@@ -6,7 +6,7 @@ const cors = require("cors");
 const endpoint = require("./Controller/Endpoint");
 const Razorpay = require("razorpay");
 const crypto = require("crypto");
-const { userDetail } = require("./Model/Db");
+const { userDetail } = require("./module/Db");
 
 const port = process.env.PORT || 8000;
 const app = express();
