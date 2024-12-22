@@ -8,6 +8,7 @@ const Razorpay = require("razorpay");
 const crypto = require("crypto");
 const { userDetail } = require("./Model/Db");
 
+const port = process.env.PORT || 8000;
 const app = express();
 app.use(cors());
 env.config();
@@ -83,6 +84,6 @@ app.delete("/emptyCart", async (req, res) => {
   console.log(deltedData);
   res.status(200).json({ status: "success", data: deltedData });
 });
-app.listen(8000, () => {
+app.listen(port, () => {
   console.log("Server is Up Baby..:)");
 });
