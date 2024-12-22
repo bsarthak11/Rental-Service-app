@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+input {
+  width: 80%;
+  margin: 5px;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+nav a {
+  width: 5vw;
+  margin: 0vw 2vw 0vw -17vw;
+}
+
+#rentBtn {
+  border-radius: 2px;
+}
+
+#rentBtn:hover {
+  background-color: azure;
+  color: black;
+  transition: all ease-in-out 0.5s;
+  border-radius: 5px;
+  box-shadow: -1px -1px 1px white;
+}
+
+.navBar a {
+  width: auto;
+  height: fit-content;
+}
+
+svg {
+  font-size: 1.5rem;
+}
+
+.updateConatner label {
+  width: 79%;
+  margin-bottom: 1px
+}
+
+/* @media (max-width:600px){
+  .updateConatner{
+    width:90%;
+    margin-top:15%;
+    padding:10px
+  }
+  .updateConatner textarea,
+  .updateConatner input {
+    width:100%;
+    margin-bottom:1px
+  }
+
+  .updateConatner label {
+    width:100%;
+    margin-top: 1%;
+    margin-bottom:1%;
+  }
+
+  .navBar{
+    display: none;
+  }
+  .cart{
+    display: block;
+  }
+} */
